@@ -76,3 +76,11 @@ sudo mysql
 CREATE DATABASE testdb;
 SHOW DATABASES;
 ```
+
+## 📚 Optional: Use MySQL with a Non-Root User
+```bash
+sudo apt remove --purge mysql-server mysql-client mysql-common -y
+sudo apt autoremove -y
+sudo apt autoclean
+sudo rm -rf /etc/mysql /var/lib/mysql
+```
