@@ -37,4 +37,17 @@ You will be asked to:
 
 Choose `Y` for all to improve security (unless you have specific needs).
 
-## 
+## ✅ Check installation and Service Status
+```bash
+mysql --version
+```
+or
+```bash
+sudo systemctl status mysql.service
+```
+
+## ▶️ Step 4: Do these if necessary (normally not necessary):
+```bash
+sudo systemctl start mysql
+sudo systemctl enable mysql
+
