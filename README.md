@@ -68,7 +68,11 @@ sudo systemctl enable mysql
 sudo systemctl status mysql
 ```
 
-## 🔐 Step 5: Secure the Installation
+## 🔐 Step 5: Create a Test Database:
 ```bash
-sudo mysql_secure_installation
+sudo mysql
+```
+```sql
+CREATE DATABASE testdb;
+SHOW DATABASES;
 ```
