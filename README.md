@@ -35,6 +35,6 @@ You will be asked to:
 * Remove test database
 * Reload privilege tables
 
-Choose <span style="background-color: yellow">Y</span> for all to improve security (unless you have specific needs).
+Choose <span style="background-color: yellow">'Y'</span> for all to improve security (unless you have specific needs).
 
 ## 
