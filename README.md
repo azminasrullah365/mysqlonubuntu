@@ -45,7 +45,7 @@ or
 ```bash
 sudo systemctl status mysql.service
 ```
-You should see the following information: /b
+You should see the following information:  
 `
 ● mysql.service - MySQL Community Server
      Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
