@@ -35,6 +35,6 @@ You will be asked to:
 * Remove test database
 * Reload privilege tables
 
-Choose 'Y' for all to improve security (unless you have specific needs).
+Choose `Y` for all to improve security (unless you have specific needs).
 
 ## 
