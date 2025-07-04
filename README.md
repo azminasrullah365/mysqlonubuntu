@@ -4,9 +4,9 @@ This guide covers the steps to install **MySQL Server** on Ubuntu (20.04, 22.04 
 
 ## 🛠️ Prerequisites
 
-*Ubuntu 20.04 or newer
-*A user with sudo privileges
-*Internet connection
+* Ubuntu 20.04 or newer
+* A user with sudo privileges
+* Internet connection
 
 
 
