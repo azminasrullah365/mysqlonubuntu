@@ -23,3 +23,18 @@ sudo apt update -y
 sudo apt install mysql-server -y
 ```
 
+## 🔐 Step 3: Secure the Installation
+```bash
+sudo mysql_secure_installation
+```
+
+You will be asked to:
+* Set the root password
+* Remove anonymous users
+* Disallow remote root login
+* Remove test database
+* Reload privilege tables
+
+Choose 'Y' for all to improve security (unless you have specific needs).
+
+## 
