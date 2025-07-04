@@ -37,7 +37,7 @@ You will be asked to:
 
 Choose `Y` for all to improve security (unless you have specific needs).
 
-## ✅ Check installation and Service Status
+## ✅ Step4: Check installation and Service Status
 ```bash
 mysql --version
 ```
@@ -45,6 +45,7 @@ or
 ```bash
 sudo systemctl status mysql.service
 ```
+
 You should see the following information:  
   
 ● mysql.service - MySQL Community Server  
@@ -60,8 +61,14 @@ You should see the following information:
              └─3907 /usr/sbin/mysqld  
 
 
-## ▶️ Step 4: Do these if necessary (normally not necessary):
+Do these if it's not active or enabled (normally not necessary):
 ```bash
 sudo systemctl start mysql
 sudo systemctl enable mysql
+sudo systemctl status mysql
+```
 
+## 🔐 Step 5: Secure the Installation
+```bash
+sudo mysql_secure_installation
+```
