@@ -46,7 +46,6 @@ or
 sudo systemctl status mysql.service
 ```
 You should see the following information:  
-`
 ● mysql.service - MySQL Community Server  
      Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)  
      Active: active (running) since Fri 2025-07-04 15:58:51 WIB; 21s ago  
@@ -58,7 +57,7 @@ You should see the following information:
         CPU: 666ms  
      CGroup: /system.slice/mysql.service  
              └─3907 /usr/sbin/mysqld  
-`
+
 
 ## ▶️ Step 4: Do these if necessary (normally not necessary):
 ```bash
